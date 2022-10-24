@@ -1,4 +1,249 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Noto Serif Display', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+
+/* Navbar  */
+nav.navbar {
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+  padding: 0px 0;
+  background-color: #E0DEDE;
+}
+
+nav.navbar .navbar-brand {
+  width: 20%;   
+}
+
+nav.navbar .navbar-brand img {
+  width: 85%;
+  float: left; 
+}
+
+nav.navbar .navbar-nav .nav-link .navbar-link {
+  font-weight: 500;
+  color: #E0DEDE !important;
+  letter-spacing: 0.9px;
+  padding: 0 25px;
+  font-size: 28px;
+  opacity: 0.75;
+}
+
+nav.navbar .navbar-nav a.nav-link .navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link .navbar-link.active {
+  opacity: 1;
+}
+
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.social-icon a { 
+  display: inline-flex;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.social-icon a::before { 
+  content: "";
+  position: absolute;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a img { 
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+	outline: none;
+    box-shadow: none;
+}
+nav.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 2px solid #fff;
+  transition: all 300ms linear;
+  top: -2px;
+}
+nav.navbar .navbar-toggler-icon:focus {
+	border-bottom: 2px solid #fff;
+}
+nav.navbar .navbar-toggler-icon:after,
+nav.navbar .navbar-toggler-icon:before {
+	width: 24px;
+	position: absolute;
+	height: 2px;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	content: '';
+	z-index: 2;
+	transition: all 300ms linear;
+}
+nav.navbar .navbar-toggler-icon:after {
+	top: 8px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+	transform: rotate(45deg);
+	background-color: #fff;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+	transform: translateY(8px) rotate(-45deg);
+	background-color: #fff;
+	height: 2px;
+}
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+	border-color: transparent;
+}
+
+/* Banner */
+.banner {
+  margin-top: 0;
+  padding: 200px 0 100px 0; 
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #E0DEDE;
+}
+/* background-image: url('./assets/img/banner-bg.png'); */
+
+.banner .tagline {
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.banner h1 {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.banner p {
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 100%;
+}
+
+.banner img {
+  animation: updown 5s linear infinite;
+  width: 60%;
+}
+
+@keyframes updown {
+  0% {
+      transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(10px);
+  }
+  100% {
+      transform: translateY(-10px);
+  }
+}
+.txt-rotate > .wrap {
+border-right: 0.08em solid #666;
+}
+
+.about {
+  text-align: center;
+  border: 3px solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.projects {
+  position: relative;   
+  height: 0;
+  margin: 10px;
+  display: flex;
+}
+
+.projects h1 {
+  text-align: center;
+}
+
+/* padding-bottom: 56.25%;  */
+.iframes {
+  position: absolute;  
+  width: 50%; 
+  height: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +280,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
