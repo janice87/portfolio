@@ -46,12 +46,13 @@ const Banner = () => {
     <section className="banner" id="home">
         <Container>
             <Row className="align-items-center">
-                <Col xs={12} md={6} xl={7}>
+                <Col xs={12} md={8} xl={7}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>Hi I'm Janice <span className='wrap'> {text} </span></h1>
-                <p>This is some info about me lorem ipsum blah blah etc etc info info</p>
+                <h1>Hi, I'm Janice. I'm a <span className='wrap'> {text} </span></h1>
+                <p>At a young age, I was unknowingly learning HTML and CSS while spending countless hours customizing my Xanga blog.
+                    It was something that I truly enjoyed and is something I am pursuing since I've always had an interest in coding. When you enjoy what you do, work becomes play.</p>
                 </Col>
-                <Col xs={12} md={6} xl={5}>
+                <Col xs={12} md={4} xl={5}>
                     <img src={coding} alt="header" />
                 </Col>
             </Row>
@@ -61,3 +62,4 @@ const Banner = () => {
 }
 
 export default Banner
+
