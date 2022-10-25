@@ -44,16 +44,15 @@ function NavBar() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>HOME</Nav.Link>
-            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>ABOUT</Nav.Link>        
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>SKILLS</Nav.Link>  
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>PROJECTS</Nav.Link>   
+            <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={() => onUpdateActiveLink('home')}>HOME</Nav.Link>
+            <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link':'navbar-link'} onClick={() => onUpdateActiveLink('about')}>ABOUT</Nav.Link>      
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link':'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>PROJECTS</Nav.Link>   
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/janice-chan-swe/"><img src={linkedin} alt="linkedin" /></a>
-              <a href="https://github.com/janice87"><img src={github} alt="github" /></a>
-              <a href="https://medium.com/@janicecodes"><img src={medium} alt="medium" /></a>
+              <a href="https://www.linkedin.com/in/janice-chan-swe/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
+              <a href="https://github.com/janice87" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
+              <a href="https://medium.com/@janicecodes" target="_blank" rel="noreferrer"><img src={medium} alt="medium" /></a>
             </div>
           </span>
         </Navbar.Collapse>
