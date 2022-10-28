@@ -16,6 +16,7 @@ const About = () => {
           <img src={line} alt="line" className="about-span" />
           </span>
         </h4> 
+        
             <Container>
                 <Row className="align-items-center">
                    <h3>ABOUT</h3>
