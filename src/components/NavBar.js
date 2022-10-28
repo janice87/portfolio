@@ -40,6 +40,7 @@ function NavBar() {
             <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link':'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>EXPERIENCE</Nav.Link>      
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link':'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>PROJECTS</Nav.Link>   
           </Nav>
+
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/janice-chan-swe/" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>

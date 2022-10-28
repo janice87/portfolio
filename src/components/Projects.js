@@ -8,12 +8,12 @@ const Projects = () => {
           <div className="projects-container">
             <Container>
                 <Row className="align-items-center">
-                  <Col xs={12} sm={8} md={8} lg={8} xl={8}>                    
+                  <Col xs={12} sm={12} md={12} lg={8} xl={8}>                    
                    <div className="iframes">     
                     <iframe 
                       width="560" 
                       height="315" 
-                      src="https://www.youtube.com/embed/4KA5RzWlvgQ?autoplay=1&loop=1&mute=1" 
+                      src="https://www.youtube.com/embed/4KA5RzWlvgQ?autoplay=1&loop=1&mute=1&rel=0" 
                       title="Capsule Closet Demo" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -22,9 +22,9 @@ const Projects = () => {
                    </div>                
                   </Col>               
 
-                    <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                     <h5>CAPSULE CLOSET</h5>
-                        <p className="align-items-center">A virtual closet organization tool allowing users to add items to their closet and create capsule wardrobes and outfits based on items in their closet. </p>    
+                        <p className="align-items-center">A virtual closet organization tool. Users are able to add items, create capsule wardrobes and outfits based on items in their closet. Authentication and Authorization was used on the backend with bcrypt.</p>    
                         <button type="button" className="btn"><span>HTML</span></button>
                         <button type="button" className="btn"><span>CSS</span></button>                    
                         <button type="button" className="btn">React</button>
@@ -42,12 +42,12 @@ const Projects = () => {
 
                 <Container>
                 <Row className="align-items-center">
-                <Col xs={12} sm={8} md={8} lg={8} xl={8}>
+                <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                    <div className="iframes">                 
                     <iframe 
                       width="560" 
                       height="315" 
-                      src="https://www.youtube.com/embed/569c6rGrkEM?autoplay=1&loop=1&mute=1" 
+                      src="https://www.youtube.com/embed/569c6rGrkEM?autoplay=1&loop=1&mute=1&rel=0" 
                       title="Super Host Demo" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -56,9 +56,9 @@ const Projects = () => {
                     </div>
                     </Col>
 
-                    <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                     <h5>SUPER HOST</h5>
-                      <p>Full stack web app for hosts to list their rentals. Hosts are able to sign up and login to view, add, edit and delete their list of rentals. </p>
+                      <p>Full stack web app for hosts to list their rentals. Hosts are able to sign up and login to view, add, edit and delete their list of rentals. Bcrypt was used for user authentication and authorization on the backend. </p>
                       <button type="button" className="btn">HTML</button>
                       <button type="button" className="btn">CSS</button>                   
                       <button type="button" className="btn">React</button>
@@ -74,12 +74,12 @@ const Projects = () => {
 
             <Container>
                 <Row className="align-items-center">
-                <Col xs={12} sm={8} md={8} lg={8} xl={8}>
+                <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                    <div className="iframes">             
                     <iframe 
                       width="560" 
                       height="315" 
-                      src="https://www.youtube.com/embed/suQP-htssjQ?autoplay=1&loop=1&mute=1" 
+                      src="https://www.youtube.com/embed/suQP-htssjQ?autoplay=1&loop=1&mute=1&rel=0" 
                       title="myBujo Demo" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -88,7 +88,7 @@ const Projects = () => {
                   </div>
                 </Col>
                     
-                    <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                       <h5>MY BUJO</h5>
                       <p>Full stack web app created as an online bullet journal allowing users to create todo lists, track moods and post/edit/delete journals. </p>      
                       <button type="button" className="btn">HTML</button>
@@ -106,12 +106,12 @@ const Projects = () => {
 
             <Container>
                 <Row className="align-items-center">
-                <Col xs={12} sm={8} md={8} lg={8} xl={8}>
+                <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                    <div className="iframes">                 
                     <iframe 
                       width="560" 
                       height="315" 
-                      src="https://www.youtube.com/embed/7YTJlv5YG6s?autoplay=1&loop=1&mute=1" 
+                      src="https://www.youtube.com/embed/7YTJlv5YG6s?autoplay=1&loop=1&mute=1&rel=0" 
                       title="Hawaii Planner Demo" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -120,9 +120,9 @@ const Projects = () => {
                     </div>
                     </Col>
 
-                    <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                       <h5>HAWAII ACTIVITY PLANNER</h5>
-                      <p>Frontend activity planning app providing details on national parks with search features, the ability to add a national park and add parks to your favorite list.  </p>      
+                      <p>Frontend activity planning app providing details on national parks. Users are able to search parks, add parks and create a favorites list. Data was used from the National Parks API.</p>      
                       <button type="button" className="btn">JavaScript</button>
                       <button type="button" className="btn">React</button>
                       <button type="button" className="btn">HTML</button>
@@ -136,12 +136,12 @@ const Projects = () => {
 
             <Container>
                 <Row className="align-items-center">
-                <Col xs={12} sm={8} md={8} lg={8} xl={8}>
+                <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                    <div className="iframes">                 
                     <iframe 
                       width="560" 
                       height="315" 
-                      src="https://www.youtube.com/embed/aCGpOEhaasc?autoplay=1&loop=1&mute=1" 
+                      src="https://www.youtube.com/embed/aCGpOEhaasc?autoplay=1&loop=1&mute=1&rel=0" 
                       title="Ecommerce Demo" 
                       frameBorder="0" 
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
@@ -150,9 +150,9 @@ const Projects = () => {
                     </div>
                     </Col>
 
-                    <Col xs={12} sm={4} md={4} lg={4} xl={4}>
+                    <Col xs={12} sm={12} md={12} lg={4} xl={4}>
                     <h5>ECOMMERCE STORE</h5>
-                      <p>Frontend application displaying products by categories, get product details and add/remove items in a customers cart.</p>  
+                      <p>Frontend single page application which displays products by categories, allows customers to get product details and add/remove items in a customers cart.  Built using vanilla JS.</p>  
                       <button type="button" className="btn">JavaScript</button>
                       <button type="button" className="btn">HTML</button>
                       <button type="button" className="btn">CSS</button>                

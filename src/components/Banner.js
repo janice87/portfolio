@@ -10,7 +10,7 @@ const Banner = () => {
                 <Col xs={12} md={8} xl={8}>
                 <img src={bannerlogo} alt="banner logo" className="banner-logo" />            
                 <p>At a young age, I was unknowingly learning HTML and CSS while spending countless hours customizing my Xanga blog. 
-                    In 2021, I continued my coding journey learning through FreeCodeCamp and completed a coding bootcamp in 2022. My journey continues and I am excited to start the next chapter in my career.
+                    In 2021, I continued my coding journey learning through freeCodeCamp and completed a coding bootcamp in 2022. My journey continues and I am excited to start the next chapter in my career.
                     When you enjoy what you do, work becomes play.</p>
                 </Col>
                 <Col xs={12} md={4} xl={4}>
